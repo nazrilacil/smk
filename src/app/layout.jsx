@@ -38,6 +38,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
+	    <head>
+	<meta name="google-site-verification" content="qNFq2NUCeYI5S87f8OUlDQq9HnzhmKj9e1jT8PTiGRA" />
+	<meta property="og:title" content="SMK AL-MASTURIYAH LANGKAPLANCAR" />
+        <meta property="og:description" content="Sebagai sekolah menengah kejuruan, SMK AL-MASTURIYAH LANGKAPLANCAR memiliki fokus khusus pada pengembangan keahlian dan keterampilan para siswanya. Kurikulum yang diterapkan dirancang untuk mempersiapkan mereka agar siap bekerja di dunia industri. Sekolah ini juga menyediakan program magang dan pelatihan kerja sama dengan industri terkait, guna memberikan pengalaman praktis kepada para siswa." />
+        <meta property="og:image" content="https://smk-al-masturiyah.vercel.app/og-image.jpg" />
+        <meta property="og:url" content="https://smk-al-masturiyah.vercel.app" />
+        <meta name="twitter:card" content="summary_large_image" />  
+            <head/>
       <body>
 	<ThemeProvider>
         <SupabaseProvider>
