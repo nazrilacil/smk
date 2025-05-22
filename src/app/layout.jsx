@@ -9,8 +9,8 @@ import Footer from '@/components/Footer'
 export const metadata = {
   title: 'SMK AL-MASTURIYAH LANGKAPLANCAR',
   description: 'Website sekolah SMK AL-MASTURIYAH LANGKAPLANCAR',
-  other: {
-    'google-site-verification': 'qNFq2NUCeYI5S87f8OUlDQq9HnzhmKj9e1jT8PTiGRA',
+  verification: {
+    google: 'qNFq2NUCeYI5S87f8OUlDQq9HnzhmKj9e1jT8PTiGRA',
   },
   openGraph: {
     title: 'SMK AL-MASTURIYAH LANGKAPLANCAR',
@@ -19,7 +19,7 @@ export const metadata = {
     siteName: 'SMK AL-MASTURIYAH',
     images: [
       {
-        url: 'https://smk-al-masturiyah.vercel.app/og-image.jpg', // Ganti dengan path gambar kamu
+        url: 'https://smk-al-masturiyah.vercel.app/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'SMK AL-MASTURIYAH',
