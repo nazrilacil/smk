@@ -4,8 +4,10 @@ import { SupabaseProvider } from '@/lib/supabaseProvider'
 import { Toaster } from 'react-hot-toast'
 import Loader from '@/components/Loader'
 import Footer from '@/components/Footer'
+import { Metadata } from 'next';
+ 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'SMK AL-MASTURIYAH LANGKAPLANCAR',
   description: 'Website sekolah SMK AL-MASTURIYAH LANGKAPLANCAR',
   openGraph: {
