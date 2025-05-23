@@ -4,38 +4,20 @@ import { SupabaseProvider } from '@/lib/supabaseProvider'
 import { Toaster } from 'react-hot-toast'
 import Loader from '@/components/Loader'
 import Footer from '@/components/Footer'
-import { Metadata } from 'next';
  
-
-export const metadata: Metadata = {
-  title: 'SMK AL-MASTURIYAH LANGKAPLANCAR',
-  description: 'Website sekolah SMK AL-MASTURIYAH LANGKAPLANCAR',
-  openGraph: {
-    title: 'SMK AL-MASTURIYAH LANGKAPLANCAR',
-    description: 'Sebagai sekolah menengah kejuruan, SMK AL-MASTURIYAH LANGKAPLANCAR ...',
-    url: 'https://smk-al-masturiyah.vercel.app',
-    siteName: 'SMK AL-MASTURIYAH',
-    images: [
-      {
-        url: 'https://smk-al-masturiyah.vercel.app/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'SMK AL-MASTURIYAH',
-      },
-    ],
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'SMK AL-MASTURIYAH LANGKAPLANCAR',
-    description: 'Sebagai sekolah menengah kejuruan, SMK AL-MASTURIYAH LANGKAPLANCAR ...',
-    images: ['https://smk-al-masturiyah.vercel.app/og-image.jpg'],
-  },
-};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
+      <meta name="google-site-verification" content="qNFq2NUCeYI5S87f8OUlDQq9HnzhmKj9e1jT8PTiGRA" />
+       <title>SMK AL-MASTURIYAH LANGKAPLANCAR</title>
+        <meta property="og:image" content="https://smk-al-masturiyah.vercel.app/og-image.jpg" />
+        <meta property="og:title" content="SMK AL-MASTURIYAH LANGKAPLANCAR" />
+        <meta property="og:description" content="Sebagai sekolah menengah kejuruan, SMK AL-MASTURIYAH LANGKAPLANCAR ..." />
+        <meta name="keywords" content="SMK AL-MASTURIYAH LANGKAPLANCAR, SMK AL-MASTURIYAH, Nazril Acil" />
+        <meta name="twitter:card" content="summary_large_image" />
+       <link rel="icon" type="image/png" href="/smk.png" />
+       <meta name="description" content="SMK AL-MASTURIYAH LANGKAPLANCAR, Daftar Sekolah SMK adalah pilihan terbaik untuk mengembangkan keahlian fi bidang teknik dan teknologi, dengan berbagai jurusan." />
       <body>
         <ThemeProvider>
           <SupabaseProvider>
