@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="id">
       <meta name="google-site-verification" content="qNFq2NUCeYI5S87f8OUlDQq9HnzhmKj9e1jT8PTiGRA" />
        <title>SMK AL-MASTURIYAH LANGKAPLANCAR</title>
-        <meta property="og:image" content="https://smk-al-masturiyah.vercel.app/og-image.jpg" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/nazrilacil/smk/refs/heads/master/public/og-image.jpg" />
         <meta property="og:title" content="SMK AL-MASTURIYAH LANGKAPLANCAR" />
         <meta property="og:description" content="Sebagai sekolah menengah kejuruan, SMK AL-MASTURIYAH LANGKAPLANCAR ..." />
         <meta name="keywords" content="SMK AL-MASTURIYAH LANGKAPLANCAR, SMK AL-MASTURIYAH, Nazril Acil" />
